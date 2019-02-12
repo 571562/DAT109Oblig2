@@ -34,6 +34,7 @@ public class TerningSpel {
         System.out.println("--------------------");
         System.out.println("Vinnaren er " + vinnar.toString() );
         System.out.println();
+        System.out.println();
     }
 
     public int getId() {
