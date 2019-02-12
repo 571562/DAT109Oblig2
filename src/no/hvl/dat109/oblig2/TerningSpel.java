@@ -33,6 +33,7 @@ public class TerningSpel {
         Spelar vinnar = spelarar.stream().max(Comparator.comparing(Spelar::getVerdi)).orElse(null);
         System.out.println("--------------------");
         System.out.println("Vinnaren er " + vinnar.toString() );
+        System.out.println();
     }
 
     public int getId() {
